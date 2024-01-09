@@ -16,7 +16,6 @@ Its just an .exe file download it and place it in a folder. Set path to the syst
 
 Main Commands:
 Power shell: Get-Command Terraform  --> displays terraform and where it is installed
-
 Init: Initializes the terraform
 Plan: It Just Displays what resources are we going to create/modify. This will NOT Create any resouce
 apply: Shows what resources are we going to create/modify and then it creates the resources
