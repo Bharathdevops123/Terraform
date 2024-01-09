@@ -25,4 +25,5 @@ destroy: This will destroy the resources
 Terraform File extension: Sample.tf
 
 State File: This will store the entire information what we have done in the past and what are we going to do.
-If we are running the terraform code for the second time this will not create the instance again if it is already created.
+If we are running the terraform code for the second time this will not create the instance again if it is already created. 
+because that information is stored in state file
