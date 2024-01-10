@@ -15,6 +15,7 @@ How to install
 Its just an .exe file download it and place it in a folder. Set path to the system variables.
 
 Main Commands:
+-------------
 Power shell: Get-Command Terraform  --> displays terraform and where it is installed
 Init: Initializes the terraform
 Plan: It Just Displays what resources are we going to create/modify. This will NOT Create any resouce
@@ -26,3 +27,22 @@ Terraform File extension: Sample.tf
 State File: This will store the entire information what we have done in the past and what are we going to do.
 If we are running the terraform code for the second time this will not create the instance again if it is already created. 
 because that information is stored in state file
+
+Terraform Variables:
+1) Strings
+2) Maps
+3) Lists
+4) Booleans
+
+Strings Variable Code: 
+Variable "<name>" {
+  type = "string"
+  default = "Value"
+}
+
+Example:
+Variable "Location" {
+  type = "string"
+  default = "Secunderabad"
+}
+
