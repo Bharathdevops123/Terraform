@@ -65,7 +65,7 @@ Variable "<map name>" {
 
 3) Lists
 
-Variable "Listname" {
+Variable "<Listname>" {
   type = "List"
   default = ["sg1","sg2" ,"sg3"]
 }
