@@ -40,6 +40,14 @@ Variable "<name>" {
   default = "Value"
 }
 
+Multiline string Code:
+Variable "<name>" {
+  type = "string"
+  default = <<EOF
+      This is multiline
+      EOF
+}
+
 Example:
 Variable "Location" {
   type = "string"
