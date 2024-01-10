@@ -34,7 +34,7 @@ Terraform Variables:
 3) Lists
 4) Booleans
 
-Strings Variable Code: 
+1) Strings Variable Code: 
 Variable "<name>" {
   type = "string"
   default = "Value"
@@ -54,3 +54,11 @@ Variable "Location" {
   default = "Secunderabad"
 }
 
+2) Maps
+Variable "<map name>" {
+  type = "map"
+  default = {
+      "useast" = "ami-1"
+      "uswest" = "ami-2"
+}
+}
