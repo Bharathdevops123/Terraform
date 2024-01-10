@@ -69,3 +69,8 @@ Variable "<Listname>" {
   type = "List"
   default = ["sg1","sg2" ,"sg3"]
 }
+
+4) Booleans
+Variable "<Booleanname>" {
+  default = true or false
+}
