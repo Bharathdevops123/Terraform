@@ -60,5 +60,12 @@ Variable "<map name>" {
   default = {
       "useast" = "ami-1"
       "uswest" = "ami-2"
+  }
 }
+
+3) Lists
+
+Variable "Listname" {
+  type = "List"
+  default = ["sg1","sg2" ,"sg3"]
 }
