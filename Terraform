@@ -10,8 +10,8 @@ Language Used: HCL (HashiCorp Language)
 Code will be available in this location for AWS provider:
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
-Install
-------
+How to install
+-------------
 Its just an .exe file download it and place it in a folder. Set path to the system variables.
 
 Main Commands:
