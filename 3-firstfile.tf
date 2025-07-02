@@ -4,7 +4,8 @@ Open power shell go to D:\Terraform and run terraform init --This will initializ
 
 In the Helloworld.tf we need to specify the below
 
-As it is Aws provider terraform will understand its an aws provider and we need to provide credetials or we can provide profile or role_arn
+As it is Aws provider terraform will understand its an aws provider and we need to provide credentials or we can provide profile or role_arn
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 
 provider "aws" {
   region     = "us-west-2"
