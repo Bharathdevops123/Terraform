@@ -1,0 +1,6 @@
+Go to https://developer.hashicorp.com/terraform
+
+click on Registry --> click on Browse modules -- > you can search for your resource code here Example: AWS Ec2
+
+or you can directly access this url: 
+https://registry.terraform.io/browse/modules
