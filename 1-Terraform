@@ -74,3 +74,9 @@ Variable "<Listname>" {
 Variable "<Booleanname>" {
   default = true or false
 }
+
+
+Output Variables:
+Output "myfirstOutputvar"{
+  value = $(var.<Variablename eg: myfirstvar>)
+}
