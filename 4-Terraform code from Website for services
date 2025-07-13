@@ -3,6 +3,11 @@ Go to https://developer.hashicorp.com/terraform
 For Documentation click on Registry --> Providers -- > aws --> Documentation (Right top corner) 
 You can able to see all the resources on the left and you can learn about it
 
+If you want code to create S3 bucket
+click on Registry --> Providers -- > aws --> Documentation (Right top corner) 
+Search for S3 you will see aws_s3_bucket click on it you will see the code.
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
+
 TO get the code of a AWS service do below.
 click on Registry --> click on Browse modules -- > you can search for your resource code here Example: AWS Ec2
 
