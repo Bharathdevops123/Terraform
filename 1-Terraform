@@ -80,3 +80,5 @@ Output Variables:
 Output "myfirstOutputvar"{
   value = $(var.<Variablename eg: myfirstvar>)
 }
+
+Terraform Modules: are like we can reuse the code . Eg to create a same kind of S3 buckts we can create a module for it and re-use it when ever needed.
